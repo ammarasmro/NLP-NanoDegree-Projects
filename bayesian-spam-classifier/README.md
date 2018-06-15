@@ -1,8 +1,8 @@
-# Bayesian Spam Classifier for SMS 
+# Bayesian Spam Classifier for SMS
 
 This mini project shows the use of different methods to train classifiers that can detect spammy sms messages. The same model can be used to detect spammy emails too.
 
-Spam detection is a supervised learning problem as we try to train models that map input text into output labels (spam or not-spam). The data is obtained from the UCI machine learning repository. 
+Spam detection is a supervised learning problem as we try to train models that map input text into output labels (spam or not-spam). The data is obtained from the UCI machine learning repository.
 
 ## Data Preprocessing
 
@@ -15,7 +15,7 @@ Not-Spam | 0
 
 ## Data Representation
 
-To feed the textual data into sklearn models we need to find a represtation that uses numbers. For this project we use *Bag-of-Words (BoW)*. 
+To feed the textual data into sklearn models we need to find a represtation that uses numbers. For this project we use *Bag-of-Words (BoW)*.
 
 Each sms is simply feed into a counter to make a frequency distribution matrix so the documents will be represented by vectors of integer word counts. Sklearn provides the count vectorizer functionality to ease this task.
 
@@ -36,8 +36,5 @@ F1 | 0.9560439560439562
 
 ## Next Steps
 
--[ ] Train an RNN model that uses Embeddings to see if using a more complex model is worth the effort.
--[ ] Try an email dataset to see how this method performs for longer text
-
-
-
+- [ ] Train an RNN model that uses Embeddings to see if using a more complex model is worth the effort.
+- [ ] Try an email dataset to see how this method performs for longer text
